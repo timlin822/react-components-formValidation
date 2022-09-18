@@ -1,0 +1,125 @@
+.register-form{
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 50px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+.register-form .register-form-title{
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 10px;
+}
+.register-form .input-group{
+    color: #151515;
+    margin-bottom: 20px;
+}
+.register-form .input-group label{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.input-group .input-group-flex{
+    display: flex;
+    align-items: center;
+}
+.register-form .input-group .input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #151515;
+    padding-left: 10px;
+}
+.register-form .input-group .email-input{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.register-form .input-group .password-input{
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-radius: 5px 0px 0px 5px;
+}
+.register-form ::placeholder{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555;
+}
+.register-form .input-group .eye-icon{
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    padding: 0px 10px;
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0px 5px 5px 0px;
+}
+.input-group .icon-cursor{
+    cursor: pointer;
+    font-size: 24px;
+    color: #151515;
+}
+.btn-register{
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #003366;
+    padding: 8px 0px;
+    margin: 20px 0px;
+    transition: background-color 0.5s ease;
+}
+.btn-register:hover:not([disabled]){
+    background-color: #225588;
+}
+.btn-register:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.register-form .input-group .error-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #dc3545;
+    margin-top: 2px;
+}
+.register-form .input-group .error-email-input{
+    border: 2px solid #dc3545;
+    border-radius: 5px;
+}
+.register-form .input-group .error-password-input{
+    border-top: 2px solid #dc3545;
+    border-left: 2px solid #dc3545;
+    border-bottom: 2px solid #dc3545;
+    border-radius: 5px 0px 0px 5px;
+}
+.register-form .input-group .error-eye-icon{
+    border-top: 2px solid #dc3545;
+    border-right: 2px solid #dc3545;
+    border-bottom: 2px solid #dc3545;
+}
+.register-form .input-group .success-email-input{
+    border: 2px solid #198754;
+    border-radius: 5px;
+}
+.register-form .input-group .success-password-input{
+    border-top: 2px solid #198754;
+    border-left: 2px solid #198754;
+    border-bottom: 2px solid #198754;
+    border-radius: 5px 0px 0px 5px;
+}
+.register-form .input-group .success-eye-icon{
+    border-top: 2px solid #198754;
+    border-right: 2px solid #198754;
+    border-bottom: 2px solid #198754;
+}
